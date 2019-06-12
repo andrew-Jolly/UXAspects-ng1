@@ -1,0 +1,61 @@
+{
+  "name": "@ux-aspects/ux-aspects-ng1",
+  "version": "2.0.0-beta.1",
+  "description": "Open source user interface framework for building modern, responsive, mobile big data applications",
+  "main": "bundles/ux-aspects-ux-aspects-ng1.umd.js",
+  "files": [
+    "bundles/",
+    "esm5/",
+    "esm2015/",
+    "fesm5/",
+    "fesm2015/",
+    "fonts/",
+    "hybrid/",
+    "img/",
+    "less/",
+    "ng1/",
+    "styles/",
+    "3rd-party-licenses.txt",
+    "index.d.ts",
+    "LICENSE.md",
+    "package.json",
+    "README.md",
+    "ux-aspects-ux-aspects-ng1.d.ts",
+    "ux-aspects-ux-aspects-ng1.metadata.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UXAspects-ng1/UXAspects-ng1.git"
+  },
+  "keywords": [
+    "ux",
+    "aspects",
+    "ui",
+    "framework",
+    "angularjs",
+    "bootstrap"
+  ],
+  "contributors": [
+    "Ashley Hunter",
+    "Alastair McKee",
+    "Pearse McMurray",
+    "Donna Marijne Worby",
+    "Chris Brennan"
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/UXAspects/UXAspects-ng1/issues"
+  },
+  "homepage": "https://uxaspects.github.io/UXAspects-ng1",
+  "peerDependencies": {
+    "@angular/compiler": ">=5.0.0",
+    "@angular/core": ">=5.0.0",
+    "@angular/platform-browser": ">=5.0.0",
+    "@angular/platform-browser-dynamic": ">=5.0.0",
+    "@angular/upgrade": ">=5.0.0",
+    "angular": ">=1.3.16",
+    "bootstrap": "~3.3.7",
+    "jquery": ">=2.1.0",
+    "jquery-ui": "~1.12.1"
+  }
+}
