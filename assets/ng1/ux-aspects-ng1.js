@@ -1,5 +1,5 @@
 /* 
-* @ux-aspects/ux-aspects-ng1-docs - v2.0.0-beta.3 
+* @ux-aspects/ux-aspects-ng1-docs - v2.0.0-beta.4-35 
 * © Copyright 2019 EntIT Software LLC, a Micro Focus company
 */
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -23252,15 +23252,18 @@ function () {
         } // find the scroll pane element
 
 
-        this.scrollpane = this.$element.find('.scroll-pane'); // start watching for any changes
+        this.scrollpane = this.$element.find('.scroll-pane'); // the scroll pane will not be present if the `scroll` option is set to false
 
-        this.scrollpaneObserver = new MutationObserver(function () {
-          return _this3.updateDropdownHeight();
-        });
-        this.scrollpaneObserver.observe(this.scrollpane.get(0), {
-          childList: true,
-          subtree: true
-        });
+        if (this.scrollpane.get(0)) {
+          // start watching for any changes
+          this.scrollpaneObserver = new MutationObserver(function () {
+            return _this3.updateDropdownHeight();
+          });
+          this.scrollpaneObserver.observe(this.scrollpane.get(0), {
+            childList: true,
+            subtree: true
+          });
+        }
       } else {
         if (this.dropdown && this.dropdownScope) {
           this.dropdownScope.$destroy();
@@ -25371,7 +25374,7 @@ function () {
     key: "onScroll",
     value: function onScroll() {
       // determine if we are scrolled to the bottom and if so load the next page
-      if (this._tableBody.scrollTop === this._tableBody.scrollHeight - this._tableBody.offsetHeight) {
+      if (this._tableBody.scrollTop === this._tableBody.scrollHeight - this._tableBody.clientHeight) {
         this.requestPage();
       }
     }
@@ -46346,7 +46349,8 @@ function TreeGridController($scope, $q, multipleSelectProvider, $timeout) {
   vm.gridRows = [];
   vm.treeData = [];
   vm.selectionModel = new _selection_tree_grid_selection_model__WEBPACK_IMPORTED_MODULE_1__["SelectionModel"]();
-  vm.allSelected = false; // private fields
+  vm.allSelected = false;
+  vm.initialized = false; // private fields
 
   vm._selected = [];
   Object.defineProperty(vm, 'selected', {
@@ -46395,7 +46399,9 @@ function TreeGridController($scope, $q, multipleSelectProvider, $timeout) {
       dataWatcher();
       optionsWatcher();
       reloadWatcher();
-    });
+    }); // mark data as initialised
+
+    vm.initialized = true;
   }; // Retrieves array for ng-repeat of grid rows
 
 
@@ -46529,9 +46535,9 @@ function TreeGridController($scope, $q, multipleSelectProvider, $timeout) {
     getTreeData(getChildren(), 0).then(function (rows) {
       return vm.treeData = rows;
     }).then(function () {
-      // Expand top level items if configured
+      // Expand top level items if configured and it is the initial render
       var promises = vm.treeData.filter(function (row) {
-        return row.canExpand && (vm.allOptions.expandTopLevel || row.expanded);
+        return row.canExpand && (vm.allOptions.expandTopLevel && !vm.initialized || row.expanded);
       }).map(function (row) {
         return expand(row);
       });

@@ -1,5 +1,5 @@
 /* 
-* @ux-aspects/ux-aspects-ng1-docs - v2.0.0-beta.3 
+* @ux-aspects/ux-aspects-ng1-docs - v2.0.0-beta.4-35 
 * © Copyright 2019 EntIT Software LLC, a Micro Focus company
 */
 .clearfix {
@@ -713,615 +713,636 @@ body > div#ux-plunker-container {
 .hpe-inherit:before {
   content: "\f1b6";
 }
-.hpe-install:before {
+.hpe-input-to-process:before {
   content: "\f1b7";
 }
-.hpe-integration:before {
+.hpe-install:before {
   content: "\f1b8";
 }
-.hpe-iteration-filled:before {
+.hpe-integration:before {
   content: "\f1b9";
 }
-.hpe-iteration:before {
+.hpe-iteration-filled:before {
   content: "\f1ba";
 }
-.hpe-java-filled:before {
+.hpe-iteration:before {
   content: "\f1bb";
 }
-.hpe-java:before {
+.hpe-java-filled:before {
   content: "\f1bc";
 }
-.hpe-language:before {
+.hpe-java:before {
   content: "\f1bd";
 }
-.hpe-launch:before {
+.hpe-language:before {
   content: "\f1be";
 }
-.hpe-license-filled:before {
+.hpe-launch:before {
   content: "\f1bf";
 }
-.hpe-license:before {
+.hpe-license-filled:before {
   content: "\f1c0";
 }
-.hpe-like-filled:before {
+.hpe-license:before {
   content: "\f1c1";
 }
-.hpe-like:before {
+.hpe-like-filled:before {
   content: "\f1c2";
 }
-.hpe-line-chart:before {
+.hpe-like:before {
   content: "\f1c3";
 }
-.hpe-link-bottom:before {
+.hpe-line-chart:before {
   content: "\f1c4";
 }
-.hpe-link-down:before {
+.hpe-link-bottom:before {
   content: "\f1c5";
 }
-.hpe-link-next:before {
+.hpe-link-down:before {
   content: "\f1c6";
 }
-.hpe-link-previous:before {
+.hpe-link-next:before {
   content: "\f1c7";
 }
-.hpe-link-top:before {
+.hpe-link-previous:before {
   content: "\f1c8";
 }
-.hpe-link-up:before {
+.hpe-link-top:before {
   content: "\f1c9";
 }
-.hpe-link:before {
+.hpe-link-up:before {
   content: "\f1ca";
 }
-.hpe-list:before {
+.hpe-link:before {
   content: "\f1cb";
 }
-.hpe-location-filled:before {
+.hpe-list:before {
   content: "\f1cc";
 }
-.hpe-location-pin-filled:before {
+.hpe-location-filled:before {
   content: "\f1cd";
 }
-.hpe-location-pin:before {
+.hpe-location-pin-filled:before {
   content: "\f1ce";
 }
-.hpe-location:before {
+.hpe-location-pin:before {
   content: "\f1cf";
 }
-.hpe-lock:before {
+.hpe-location:before {
   content: "\f1d0";
 }
-.hpe-login:before {
+.hpe-lock:before {
   content: "\f1d1";
 }
-.hpe-logout:before {
+.hpe-login:before {
   content: "\f1d2";
 }
-.hpe-mail-attachment:before {
+.hpe-logout:before {
   content: "\f1d3";
 }
-.hpe-mail:before {
+.hpe-mail-attachment:before {
   content: "\f1d4";
 }
-.hpe-manual:before {
+.hpe-mail:before {
   content: "\f1d5";
 }
-.hpe-map-location:before {
+.hpe-manual:before {
   content: "\f1d6";
 }
-.hpe-map:before {
+.hpe-map-location:before {
   content: "\f1d7";
 }
-.hpe-menu:before {
+.hpe-map:before {
   content: "\f1d8";
 }
-.hpe-microphone-filled:before {
+.hpe-menu:before {
   content: "\f1d9";
 }
-.hpe-microphone:before {
+.hpe-microphone-filled:before {
   content: "\f1da";
 }
-.hpe-monitor:before {
+.hpe-microphone:before {
   content: "\f1db";
 }
-.hpe-more:before {
+.hpe-monitor:before {
   content: "\f1dc";
 }
-.hpe-multiple:before {
+.hpe-more:before {
   content: "\f1dd";
 }
-.hpe-navigate:before {
+.hpe-multiple:before {
   content: "\f1de";
 }
-.hpe-new-window:before {
+.hpe-navigate:before {
   content: "\f1df";
 }
-.hpe-new:before {
+.hpe-new-window:before {
   content: "\f1e0";
+}
+.hpe-new:before {
+  content: "\f1e1";
+}
+.hpe-news-aggregation:before {
+  content: "\f1e2";
+}
+.hpe-news-collection:before {
+  content: "\f1e3";
+}
+.hpe-news-content:before {
+  content: "\f1e4";
+}
+.hpe-news:before {
+  content: "\f1e5";
 }
 .hpe-next:before,
 .breadcrumb > li:after {
-  content: "\f1e1";
-}
-.hpe-notes:before {
-  content: "\f1e2";
-}
-.hpe-notification-filled:before {
-  content: "\f1e3";
-}
-.hpe-notification:before {
-  content: "\f1e4";
-}
-.hpe-optimization:before {
-  content: "\f1e5";
-}
-.hpe-organization:before {
   content: "\f1e6";
 }
-.hpe-overview:before {
+.hpe-notes:before {
   content: "\f1e7";
 }
-.hpe-pan:before {
+.hpe-notification-filled:before {
   content: "\f1e8";
 }
-.hpe-pause-filled:before {
+.hpe-notification:before {
   content: "\f1e9";
 }
-.hpe-pause:before {
+.hpe-optimization:before {
   content: "\f1ea";
 }
-.hpe-payment-google-wallet:before {
+.hpe-organization:before {
   content: "\f1eb";
 }
-.hpe-payment-mastercard:before {
+.hpe-overview:before {
   content: "\f1ec";
 }
-.hpe-payment-paypal:before {
+.hpe-pan:before {
   content: "\f1ed";
 }
-.hpe-payment-square:before {
+.hpe-pause-filled:before {
   content: "\f1ee";
 }
-.hpe-payment-visa:before {
+.hpe-pause:before {
   content: "\f1ef";
 }
-.hpe-pin-filled:before {
+.hpe-payment-google-wallet:before {
   content: "\f1f0";
 }
-.hpe-pin:before {
+.hpe-payment-mastercard:before {
   content: "\f1f1";
 }
-.hpe-plan:before {
+.hpe-payment-paypal:before {
   content: "\f1f2";
 }
-.hpe-platform-apple:before {
+.hpe-payment-square:before {
   content: "\f1f3";
 }
-.hpe-platform-chrome:before {
+.hpe-payment-visa:before {
   content: "\f1f4";
 }
-.hpe-platform-dropbox:before {
+.hpe-pin-filled:before {
   content: "\f1f5";
 }
-.hpe-platform-edge:before {
+.hpe-pin:before {
   content: "\f1f6";
 }
-.hpe-platform-firefox:before {
+.hpe-plan:before {
   content: "\f1f7";
 }
-.hpe-platform-internet-explorer:before {
+.hpe-platform-apple:before {
   content: "\f1f8";
 }
-.hpe-platform-skype:before {
+.hpe-platform-chrome:before {
   content: "\f1f9";
 }
-.hpe-platform-windows:before {
+.hpe-platform-dropbox:before {
   content: "\f1fa";
 }
-.hpe-play-filled:before {
+.hpe-platform-edge:before {
   content: "\f1fb";
 }
-.hpe-play:before {
+.hpe-platform-firefox:before {
   content: "\f1fc";
 }
-.hpe-power:before {
+.hpe-platform-internet-explorer:before {
   content: "\f1fd";
 }
-.hpe-previous:before {
+.hpe-platform-skype:before {
   content: "\f1fe";
 }
-.hpe-print:before {
+.hpe-platform-windows:before {
   content: "\f1ff";
 }
-.hpe-quick-view:before {
+.hpe-play-filled:before {
   content: "\f200";
 }
-.hpe-radial-selected:before {
+.hpe-play:before {
   content: "\f201";
 }
-.hpe-radial:before {
+.hpe-power:before {
   content: "\f202";
 }
-.hpe-refresh:before {
+.hpe-previous:before {
   content: "\f203";
 }
-.hpe-resources:before {
+.hpe-print:before {
   content: "\f204";
 }
-.hpe-rewind-filled:before {
+.hpe-quick-view:before {
   content: "\f205";
 }
-.hpe-rewind:before {
+.hpe-radial-selected:before {
   content: "\f206";
 }
-.hpe-risk:before {
+.hpe-radial:before {
   content: "\f207";
 }
-.hpe-rss:before {
+.hpe-refresh:before {
   content: "\f208";
 }
-.hpe-satellite:before {
+.hpe-resources:before {
   content: "\f209";
 }
-.hpe-schedule-clone:before {
+.hpe-rewind-filled:before {
   content: "\f20a";
 }
-.hpe-schedule-new:before {
+.hpe-rewind:before {
   content: "\f20b";
 }
-.hpe-schedule-play:before {
+.hpe-risk:before {
   content: "\f20c";
 }
-.hpe-schedule:before {
+.hpe-rss:before {
   content: "\f20d";
 }
-.hpe-scorecard:before {
+.hpe-satellite:before {
   content: "\f20e";
 }
-.hpe-search:before {
+.hpe-save-filled:before {
   content: "\f20f";
 }
-.hpe-secure:before {
+.hpe-save:before {
   content: "\f210";
 }
-.hpe-select-left:before {
+.hpe-schedule-clone:before {
   content: "\f211";
 }
-.hpe-select:before {
+.hpe-schedule-new:before {
   content: "\f212";
 }
-.hpe-server-cluster:before {
+.hpe-schedule-play:before {
   content: "\f213";
 }
-.hpe-server:before {
+.hpe-schedule:before {
   content: "\f214";
 }
-.hpe-servers:before {
+.hpe-scorecard:before {
   content: "\f215";
 }
-.hpe-service-business:before {
+.hpe-search:before {
   content: "\f216";
 }
-.hpe-service-start:before {
+.hpe-secure:before {
   content: "\f217";
 }
-.hpe-share:before {
+.hpe-select-left:before {
   content: "\f218";
 }
-.hpe-shield-configure:before {
+.hpe-select:before {
   content: "\f219";
 }
-.hpe-shield-filled:before {
+.hpe-server-cluster:before {
   content: "\f21a";
 }
-.hpe-shield:before {
+.hpe-server:before {
   content: "\f21b";
 }
-.hpe-shift:before {
+.hpe-servers:before {
   content: "\f21c";
 }
-.hpe-shop-basket:before {
+.hpe-service-business:before {
   content: "\f21d";
 }
-.hpe-shop-cart:before {
+.hpe-service-start:before {
   content: "\f21e";
 }
-.hpe-soa:before {
+.hpe-share:before {
   content: "\f21f";
 }
-.hpe-social-email:before {
+.hpe-shield-configure:before {
   content: "\f220";
 }
-.hpe-social-facebook:before {
+.hpe-shield-filled:before {
   content: "\f221";
 }
-.hpe-social-github:before {
+.hpe-shield:before {
   content: "\f222";
 }
-.hpe-social-google:before {
+.hpe-shift:before {
   content: "\f223";
 }
-.hpe-social-instagram:before {
+.hpe-shop-basket:before {
   content: "\f224";
 }
-.hpe-social-linkedin:before {
+.hpe-shop-cart:before {
   content: "\f225";
 }
-.hpe-social-medium:before {
+.hpe-soa:before {
   content: "\f226";
 }
-.hpe-social-pinterest:before {
+.hpe-social-email:before {
   content: "\f227";
 }
-.hpe-social-reddit:before {
+.hpe-social-facebook:before {
   content: "\f228";
 }
-.hpe-social-slack:before {
+.hpe-social-github:before {
   content: "\f229";
 }
-.hpe-social-tumblr:before {
+.hpe-social-google:before {
   content: "\f22a";
 }
-.hpe-social-twitter:before {
+.hpe-social-instagram:before {
   content: "\f22b";
 }
-.hpe-social-vimeo:before {
+.hpe-social-linkedin:before {
   content: "\f22c";
 }
-.hpe-social-youtube:before {
+.hpe-social-medium:before {
   content: "\f22d";
 }
-.hpe-sort:before {
+.hpe-social-pinterest:before {
   content: "\f22e";
 }
-.hpe-stakeholder:before {
+.hpe-social-reddit:before {
   content: "\f22f";
 }
-.hpe-star-filled:before {
+.hpe-social-slack:before {
   content: "\f230";
 }
-.hpe-star-half:before {
+.hpe-social-tumblr:before {
   content: "\f231";
 }
-.hpe-star:before {
+.hpe-social-twitter:before {
   content: "\f232";
 }
-.hpe-status-approved-filled:before {
+.hpe-social-vimeo:before {
   content: "\f233";
 }
-.hpe-status-error-filled:before {
+.hpe-social-youtube:before {
   content: "\f234";
 }
-.hpe-status-information-filled:before {
+.hpe-sort:before {
   content: "\f235";
 }
-.hpe-status-warning-filled:before {
+.hpe-stakeholder:before {
   content: "\f236";
 }
-.hpe-steps-filled:before {
+.hpe-star-filled:before {
   content: "\f237";
 }
-.hpe-steps:before {
+.hpe-star-half:before {
   content: "\f238";
 }
-.hpe-storage:before {
+.hpe-star:before {
   content: "\f239";
 }
-.hpe-street-view-filled:before {
+.hpe-status-approved-filled:before {
   content: "\f23a";
 }
-.hpe-street-view:before {
+.hpe-status-error-filled:before {
   content: "\f23b";
 }
-.hpe-subtitles:before {
+.hpe-status-information-filled:before {
   content: "\f23c";
 }
-.hpe-subtract:before {
+.hpe-status-warning-filled:before {
   content: "\f23d";
 }
-.hpe-support:before {
+.hpe-steps-filled:before {
   content: "\f23e";
 }
-.hpe-sync:before {
+.hpe-steps:before {
   content: "\f23f";
 }
-.hpe-system:before {
+.hpe-storage:before {
   content: "\f240";
 }
-.hpe-tab-next:before {
+.hpe-street-view-filled:before {
   content: "\f241";
 }
-.hpe-tab-previous:before {
+.hpe-street-view:before {
   content: "\f242";
 }
-.hpe-tab-up:before {
+.hpe-subtitles:before {
   content: "\f243";
 }
-.hpe-table-add:before {
+.hpe-subtract:before {
   content: "\f244";
 }
-.hpe-table:before {
+.hpe-support:before {
   content: "\f245";
 }
-.hpe-tag-filled:before {
+.hpe-sync:before {
   content: "\f246";
 }
-.hpe-tag:before {
+.hpe-system:before {
   content: "\f247";
 }
-.hpe-target:before {
+.hpe-tab-next:before {
   content: "\f248";
 }
-.hpe-task:before {
+.hpe-tab-previous:before {
   content: "\f249";
 }
-.hpe-template:before {
+.hpe-tab-up:before {
   content: "\f24a";
 }
-.hpe-test-desktop:before {
+.hpe-table-add:before {
   content: "\f24b";
 }
-.hpe-test:before {
+.hpe-table:before {
   content: "\f24c";
 }
-.hpe-text-wrap:before {
+.hpe-tag-filled:before {
   content: "\f24d";
 }
-.hpe-threats:before {
+.hpe-tag:before {
   content: "\f24e";
 }
-.hpe-ticket:before {
+.hpe-target:before {
   content: "\f24f";
 }
-.hpe-tools:before {
+.hpe-task:before {
   content: "\f250";
 }
-.hpe-tooltip:before {
+.hpe-template:before {
   content: "\f251";
 }
-.hpe-transaction-filled:before {
+.hpe-test-desktop:before {
   content: "\f252";
 }
-.hpe-transaction:before {
+.hpe-test:before {
   content: "\f253";
 }
-.hpe-trash-filled:before {
+.hpe-text-wrap:before {
   content: "\f254";
 }
-.hpe-trash:before {
+.hpe-threats:before {
   content: "\f255";
 }
-.hpe-tree:before {
+.hpe-ticket:before {
   content: "\f256";
 }
-.hpe-trigger:before {
+.hpe-tools:before {
   content: "\f257";
 }
-.hpe-trophy-filled:before {
+.hpe-tooltip:before {
   content: "\f258";
 }
-.hpe-trophy:before {
+.hpe-transaction-filled:before {
   content: "\f259";
 }
-.hpe-troubleshooting:before {
+.hpe-transaction:before {
   content: "\f25a";
 }
-.hpe-unlock:before {
+.hpe-trash-filled:before {
   content: "\f25b";
 }
-.hpe-up:before {
+.hpe-trash:before {
   content: "\f25c";
 }
-.hpe-update:before {
+.hpe-tree:before {
   content: "\f25d";
 }
-.hpe-upgrade-filled:before {
+.hpe-trigger:before {
   content: "\f25e";
 }
-.hpe-upgrade:before {
+.hpe-trophy-filled:before {
   content: "\f25f";
 }
-.hpe-upload:before {
+.hpe-trophy:before {
   content: "\f260";
 }
-.hpe-user-add-filled:before {
+.hpe-troubleshooting:before {
   content: "\f261";
 }
-.hpe-user-add:before {
+.hpe-unlock:before {
   content: "\f262";
 }
-.hpe-user-admin:before {
+.hpe-up:before {
   content: "\f263";
 }
-.hpe-user-expert:before {
+.hpe-update:before {
   content: "\f264";
 }
-.hpe-user-female-filled:before {
+.hpe-upgrade-filled:before {
   content: "\f265";
 }
-.hpe-user-female:before {
+.hpe-upgrade:before {
   content: "\f266";
 }
-.hpe-user-filled:before {
+.hpe-upload:before {
   content: "\f267";
 }
-.hpe-user-manager:before {
+.hpe-user-add-filled:before {
   content: "\f268";
 }
-.hpe-user-new:before {
+.hpe-user-add:before {
   content: "\f269";
 }
-.hpe-user-police:before {
+.hpe-user-admin:before {
   content: "\f26a";
 }
-.hpe-user-settings:before {
+.hpe-user-expert:before {
   content: "\f26b";
 }
-.hpe-user-worker:before {
+.hpe-user-female-filled:before {
   content: "\f26c";
 }
-.hpe-user:before {
+.hpe-user-female:before {
   content: "\f26d";
 }
-.hpe-validation-filled:before {
+.hpe-user-filled:before {
   content: "\f26e";
 }
-.hpe-validation:before {
+.hpe-user-manager:before {
   content: "\f26f";
 }
-.hpe-video-filled:before {
+.hpe-user-new:before {
   content: "\f270";
 }
-.hpe-video:before {
+.hpe-user-police:before {
   content: "\f271";
 }
-.hpe-view-filled:before {
+.hpe-user-settings:before {
   content: "\f272";
 }
-.hpe-view:before {
+.hpe-user-worker:before {
   content: "\f273";
 }
-.hpe-virtual-machine:before {
+.hpe-user:before {
   content: "\f274";
 }
-.hpe-vm-maintenance:before {
+.hpe-validation-filled:before {
   content: "\f275";
 }
-.hpe-volume-filled:before {
+.hpe-validation:before {
   content: "\f276";
 }
-.hpe-volume-low-filled:before {
+.hpe-video-filled:before {
   content: "\f277";
 }
-.hpe-volume-low:before {
+.hpe-video:before {
   content: "\f278";
 }
-.hpe-volume-mute-filled:before {
+.hpe-view-filled:before {
   content: "\f279";
 }
-.hpe-volume-mute:before {
+.hpe-view:before {
   content: "\f27a";
 }
-.hpe-volume:before {
+.hpe-virtual-machine:before {
   content: "\f27b";
 }
-.hpe-vulnerability:before {
+.hpe-vm-maintenance:before {
   content: "\f27c";
 }
-.hpe-waypoint-filled:before {
+.hpe-volume-filled:before {
   content: "\f27d";
 }
-.hpe-waypoint:before {
+.hpe-volume-low-filled:before {
   content: "\f27e";
 }
-.hpe-workshop:before {
+.hpe-volume-low:before {
   content: "\f27f";
 }
-.hpe-zoom-in:before {
+.hpe-volume-mute-filled:before {
   content: "\f280";
 }
-.hpe-zoom-out:before {
+.hpe-volume-mute:before {
   content: "\f281";
+}
+.hpe-volume:before {
+  content: "\f282";
+}
+.hpe-vulnerability:before {
+  content: "\f283";
+}
+.hpe-waypoint-filled:before {
+  content: "\f284";
+}
+.hpe-waypoint:before {
+  content: "\f285";
+}
+.hpe-workshop:before {
+  content: "\f286";
+}
+.hpe-zoom-in:before {
+  content: "\f287";
+}
+.hpe-zoom-out:before {
+  content: "\f288";
 }
 .hp-icon,
 .hpe-icon {
@@ -6846,7 +6867,7 @@ th:hover .detail-row-header.sort .sort .number {
   width: 100%;
 }
 .accordion-chevron .panel-heading:before {
-  content: "\f1fe";
+  content: "\f203";
 }
 .accordion-chevron .panel-heading:before {
   font-family: 'hpe-icons';
@@ -14105,7 +14126,7 @@ form .button-primary.disabled {
 .el-checkbox-label .el-radiobutton.indeterminate:before,
 .el-radiobutton-label .el-radiobutton.indeterminate:before,
 .el-toggleswitch-label .el-radiobutton.indeterminate:before {
-  content: "\f23d";
+  content: "\f244";
 }
 .el-checkbox-label .el-checkbox.checked,
 .el-radiobutton-label .el-checkbox.checked,
