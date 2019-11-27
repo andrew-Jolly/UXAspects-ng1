@@ -3,7 +3,7 @@ const { cwd } = require('process');
 
 module.exports = {
     iconset: {
-        src: join(cwd(), 'src', 'icons', '*.svg'),
+        src: join(cwd(), 'src', 'icons', 'hpe', '*.svg'),
         dest: join(cwd(), 'src', 'fonts'),
         destCss: join(cwd(), 'src', 'styles'),
         options: {
