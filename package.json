@@ -26,7 +26,8 @@
     "lint": "grunt lint",
     "package": "grunt package",
     "package:release": "grunt package:release",
-    "test": "grunt jasmine:ng1"
+    "test": "grunt jasmine:ng1",
+    "cherry-pick": "git cherry-pick $(git --git-dir=../UXAspects/.git log --since 2019-10-04 --format=%H -- src/ng1/ src/icons/)"
   },
   "dependencies": {
     "@angular/animations": "~8.1.2",
