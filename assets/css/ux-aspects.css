@@ -1,5 +1,5 @@
 /* 
-* @ux-aspects/ux-aspects-ng1-docs - v2.0.0-beta.4-35 
+* @ux-aspects/ux-aspects-ng1-docs - v2.0.0-beta.5-60 
 * © Copyright 2019 EntIT Software LLC, a Micro Focus company
 */
 .clearfix {
@@ -662,687 +662,693 @@ body > div#ux-plunker-container {
 .hpe-help:before {
   content: "\f1a5";
 }
-.hpe-history:before {
+.hpe-highlighting-remove:before {
   content: "\f1a6";
 }
-.hpe-home-filled:before {
+.hpe-highlighting:before {
   content: "\f1a7";
 }
-.hpe-home:before {
+.hpe-history:before {
   content: "\f1a8";
 }
-.hpe-host-maintenance:before {
+.hpe-home-filled:before {
   content: "\f1a9";
 }
-.hpe-host:before {
+.hpe-home:before {
   content: "\f1aa";
 }
-.hpe-image-filled:before {
+.hpe-host-maintenance:before {
   content: "\f1ab";
 }
-.hpe-image:before {
+.hpe-host:before {
   content: "\f1ac";
 }
-.hpe-impact:before {
+.hpe-image-filled:before {
   content: "\f1ad";
 }
-.hpe-in-progress:before {
+.hpe-image:before {
   content: "\f1ae";
 }
-.hpe-inactive:before {
+.hpe-impact:before {
   content: "\f1af";
 }
-.hpe-inbox:before {
+.hpe-in-progress:before {
   content: "\f1b0";
 }
-.hpe-indicator-filled:before {
+.hpe-inactive:before {
   content: "\f1b1";
 }
-.hpe-indicator:before {
+.hpe-inbox:before {
   content: "\f1b2";
 }
-.hpe-information-filled:before {
+.hpe-indicator-filled:before {
   content: "\f1b3";
 }
-.hpe-information:before {
+.hpe-indicator:before {
   content: "\f1b4";
 }
-.hpe-inherit-filled:before {
+.hpe-information-filled:before {
   content: "\f1b5";
 }
-.hpe-inherit:before {
+.hpe-information:before {
   content: "\f1b6";
 }
-.hpe-input-to-process:before {
+.hpe-inherit-filled:before {
   content: "\f1b7";
 }
-.hpe-install:before {
+.hpe-inherit:before {
   content: "\f1b8";
 }
-.hpe-integration:before {
+.hpe-input-to-process:before {
   content: "\f1b9";
 }
-.hpe-iteration-filled:before {
+.hpe-install:before {
   content: "\f1ba";
 }
-.hpe-iteration:before {
+.hpe-integration:before {
   content: "\f1bb";
 }
-.hpe-java-filled:before {
+.hpe-iteration-filled:before {
   content: "\f1bc";
 }
-.hpe-java:before {
+.hpe-iteration:before {
   content: "\f1bd";
 }
-.hpe-language:before {
+.hpe-java-filled:before {
   content: "\f1be";
 }
-.hpe-launch:before {
+.hpe-java:before {
   content: "\f1bf";
 }
-.hpe-license-filled:before {
+.hpe-language:before {
   content: "\f1c0";
 }
-.hpe-license:before {
+.hpe-launch:before {
   content: "\f1c1";
 }
-.hpe-like-filled:before {
+.hpe-license-filled:before {
   content: "\f1c2";
 }
-.hpe-like:before {
+.hpe-license:before {
   content: "\f1c3";
 }
-.hpe-line-chart:before {
+.hpe-like-filled:before {
   content: "\f1c4";
 }
-.hpe-link-bottom:before {
+.hpe-like:before {
   content: "\f1c5";
 }
-.hpe-link-down:before {
+.hpe-line-chart:before {
   content: "\f1c6";
 }
-.hpe-link-next:before {
+.hpe-link-bottom:before {
   content: "\f1c7";
 }
-.hpe-link-previous:before {
+.hpe-link-down:before {
   content: "\f1c8";
 }
-.hpe-link-top:before {
+.hpe-link-next:before {
   content: "\f1c9";
 }
-.hpe-link-up:before {
+.hpe-link-previous:before {
   content: "\f1ca";
 }
-.hpe-link:before {
+.hpe-link-top:before {
   content: "\f1cb";
 }
-.hpe-list:before {
+.hpe-link-up:before {
   content: "\f1cc";
 }
-.hpe-location-filled:before {
+.hpe-link:before {
   content: "\f1cd";
 }
-.hpe-location-pin-filled:before {
+.hpe-list:before {
   content: "\f1ce";
 }
-.hpe-location-pin:before {
+.hpe-location-filled:before {
   content: "\f1cf";
 }
-.hpe-location:before {
+.hpe-location-pin-filled:before {
   content: "\f1d0";
 }
-.hpe-lock:before {
+.hpe-location-pin:before {
   content: "\f1d1";
 }
-.hpe-login:before {
+.hpe-location:before {
   content: "\f1d2";
 }
-.hpe-logout:before {
+.hpe-lock:before {
   content: "\f1d3";
 }
-.hpe-mail-attachment:before {
+.hpe-login:before {
   content: "\f1d4";
 }
-.hpe-mail:before {
+.hpe-logout:before {
   content: "\f1d5";
 }
-.hpe-manual:before {
+.hpe-mail-attachment:before {
   content: "\f1d6";
 }
-.hpe-map-location:before {
+.hpe-mail:before {
   content: "\f1d7";
 }
-.hpe-map:before {
+.hpe-manual:before {
   content: "\f1d8";
 }
-.hpe-menu:before {
+.hpe-map-location:before {
   content: "\f1d9";
 }
-.hpe-microphone-filled:before {
+.hpe-map:before {
   content: "\f1da";
 }
-.hpe-microphone:before {
+.hpe-menu:before {
   content: "\f1db";
 }
-.hpe-monitor:before {
+.hpe-microphone-filled:before {
   content: "\f1dc";
 }
-.hpe-more:before {
+.hpe-microphone:before {
   content: "\f1dd";
 }
-.hpe-multiple:before {
+.hpe-monitor:before {
   content: "\f1de";
 }
-.hpe-navigate:before {
+.hpe-more:before {
   content: "\f1df";
 }
-.hpe-new-window:before {
+.hpe-multiple:before {
   content: "\f1e0";
 }
-.hpe-new:before {
+.hpe-navigate:before {
   content: "\f1e1";
 }
-.hpe-news-aggregation:before {
+.hpe-new-window:before {
   content: "\f1e2";
 }
-.hpe-news-collection:before {
+.hpe-new:before {
   content: "\f1e3";
 }
-.hpe-news-content:before {
+.hpe-news-aggregation:before {
   content: "\f1e4";
 }
-.hpe-news:before {
+.hpe-news-collection:before {
   content: "\f1e5";
+}
+.hpe-news-content:before {
+  content: "\f1e6";
+}
+.hpe-news:before {
+  content: "\f1e7";
 }
 .hpe-next:before,
 .breadcrumb > li:after {
-  content: "\f1e6";
-}
-.hpe-notes:before {
-  content: "\f1e7";
-}
-.hpe-notification-filled:before {
   content: "\f1e8";
 }
-.hpe-notification:before {
+.hpe-notes:before {
   content: "\f1e9";
 }
-.hpe-optimization:before {
+.hpe-notification-filled:before {
   content: "\f1ea";
 }
-.hpe-organization:before {
+.hpe-notification:before {
   content: "\f1eb";
 }
-.hpe-overview:before {
+.hpe-optimization:before {
   content: "\f1ec";
 }
-.hpe-pan:before {
+.hpe-organization:before {
   content: "\f1ed";
 }
-.hpe-pause-filled:before {
+.hpe-overview:before {
   content: "\f1ee";
 }
-.hpe-pause:before {
+.hpe-pan:before {
   content: "\f1ef";
 }
-.hpe-payment-google-wallet:before {
+.hpe-pause-filled:before {
   content: "\f1f0";
 }
-.hpe-payment-mastercard:before {
+.hpe-pause:before {
   content: "\f1f1";
 }
-.hpe-payment-paypal:before {
+.hpe-payment-google-wallet:before {
   content: "\f1f2";
 }
-.hpe-payment-square:before {
+.hpe-payment-mastercard:before {
   content: "\f1f3";
 }
-.hpe-payment-visa:before {
+.hpe-payment-paypal:before {
   content: "\f1f4";
 }
-.hpe-pin-filled:before {
+.hpe-payment-square:before {
   content: "\f1f5";
 }
-.hpe-pin:before {
+.hpe-payment-visa:before {
   content: "\f1f6";
 }
-.hpe-plan:before {
+.hpe-pin-filled:before {
   content: "\f1f7";
 }
-.hpe-platform-apple:before {
+.hpe-pin:before {
   content: "\f1f8";
 }
-.hpe-platform-chrome:before {
+.hpe-plan:before {
   content: "\f1f9";
 }
-.hpe-platform-dropbox:before {
+.hpe-platform-apple:before {
   content: "\f1fa";
 }
-.hpe-platform-edge:before {
+.hpe-platform-chrome:before {
   content: "\f1fb";
 }
-.hpe-platform-firefox:before {
+.hpe-platform-dropbox:before {
   content: "\f1fc";
 }
-.hpe-platform-internet-explorer:before {
+.hpe-platform-edge:before {
   content: "\f1fd";
 }
-.hpe-platform-skype:before {
+.hpe-platform-firefox:before {
   content: "\f1fe";
 }
-.hpe-platform-windows:before {
+.hpe-platform-internet-explorer:before {
   content: "\f1ff";
 }
-.hpe-play-filled:before {
+.hpe-platform-skype:before {
   content: "\f200";
 }
-.hpe-play:before {
+.hpe-platform-windows:before {
   content: "\f201";
 }
-.hpe-power:before {
+.hpe-play-filled:before {
   content: "\f202";
 }
-.hpe-previous:before {
+.hpe-play:before {
   content: "\f203";
 }
-.hpe-print:before {
+.hpe-power:before {
   content: "\f204";
 }
-.hpe-quick-view:before {
+.hpe-previous:before {
   content: "\f205";
 }
-.hpe-radial-selected:before {
+.hpe-print:before {
   content: "\f206";
 }
-.hpe-radial:before {
+.hpe-quick-view:before {
   content: "\f207";
 }
-.hpe-refresh:before {
+.hpe-radial-selected:before {
   content: "\f208";
 }
-.hpe-resources:before {
+.hpe-radial:before {
   content: "\f209";
 }
-.hpe-rewind-filled:before {
+.hpe-refresh:before {
   content: "\f20a";
 }
-.hpe-rewind:before {
+.hpe-resources:before {
   content: "\f20b";
 }
-.hpe-risk:before {
+.hpe-rewind-filled:before {
   content: "\f20c";
 }
-.hpe-rss:before {
+.hpe-rewind:before {
   content: "\f20d";
 }
-.hpe-satellite:before {
+.hpe-risk:before {
   content: "\f20e";
 }
-.hpe-save-filled:before {
+.hpe-rss:before {
   content: "\f20f";
 }
-.hpe-save:before {
+.hpe-satellite:before {
   content: "\f210";
 }
-.hpe-schedule-clone:before {
+.hpe-save-filled:before {
   content: "\f211";
 }
-.hpe-schedule-new:before {
+.hpe-save:before {
   content: "\f212";
 }
-.hpe-schedule-play:before {
+.hpe-schedule-clone:before {
   content: "\f213";
 }
-.hpe-schedule:before {
+.hpe-schedule-new:before {
   content: "\f214";
 }
-.hpe-scorecard:before {
+.hpe-schedule-play:before {
   content: "\f215";
 }
-.hpe-search:before {
+.hpe-schedule:before {
   content: "\f216";
 }
-.hpe-secure:before {
+.hpe-scorecard:before {
   content: "\f217";
 }
-.hpe-select-left:before {
+.hpe-search:before {
   content: "\f218";
 }
-.hpe-select:before {
+.hpe-secure:before {
   content: "\f219";
 }
-.hpe-server-cluster:before {
+.hpe-select-left:before {
   content: "\f21a";
 }
-.hpe-server:before {
+.hpe-select:before {
   content: "\f21b";
 }
-.hpe-servers:before {
+.hpe-server-cluster:before {
   content: "\f21c";
 }
-.hpe-service-business:before {
+.hpe-server:before {
   content: "\f21d";
 }
-.hpe-service-start:before {
+.hpe-servers:before {
   content: "\f21e";
 }
-.hpe-share:before {
+.hpe-service-business:before {
   content: "\f21f";
 }
-.hpe-shield-configure:before {
+.hpe-service-start:before {
   content: "\f220";
 }
-.hpe-shield-filled:before {
+.hpe-share:before {
   content: "\f221";
 }
-.hpe-shield:before {
+.hpe-shield-configure:before {
   content: "\f222";
 }
-.hpe-shift:before {
+.hpe-shield-filled:before {
   content: "\f223";
 }
-.hpe-shop-basket:before {
+.hpe-shield:before {
   content: "\f224";
 }
-.hpe-shop-cart:before {
+.hpe-shift:before {
   content: "\f225";
 }
-.hpe-soa:before {
+.hpe-shop-basket:before {
   content: "\f226";
 }
-.hpe-social-email:before {
+.hpe-shop-cart:before {
   content: "\f227";
 }
-.hpe-social-facebook:before {
+.hpe-soa:before {
   content: "\f228";
 }
-.hpe-social-github:before {
+.hpe-social-email:before {
   content: "\f229";
 }
-.hpe-social-google:before {
+.hpe-social-facebook:before {
   content: "\f22a";
 }
-.hpe-social-instagram:before {
+.hpe-social-github:before {
   content: "\f22b";
 }
-.hpe-social-linkedin:before {
+.hpe-social-google:before {
   content: "\f22c";
 }
-.hpe-social-medium:before {
+.hpe-social-instagram:before {
   content: "\f22d";
 }
-.hpe-social-pinterest:before {
+.hpe-social-linkedin:before {
   content: "\f22e";
 }
-.hpe-social-reddit:before {
+.hpe-social-medium:before {
   content: "\f22f";
 }
-.hpe-social-slack:before {
+.hpe-social-pinterest:before {
   content: "\f230";
 }
-.hpe-social-tumblr:before {
+.hpe-social-reddit:before {
   content: "\f231";
 }
-.hpe-social-twitter:before {
+.hpe-social-slack:before {
   content: "\f232";
 }
-.hpe-social-vimeo:before {
+.hpe-social-tumblr:before {
   content: "\f233";
 }
-.hpe-social-youtube:before {
+.hpe-social-twitter:before {
   content: "\f234";
 }
-.hpe-sort:before {
+.hpe-social-vimeo:before {
   content: "\f235";
 }
-.hpe-stakeholder:before {
+.hpe-social-youtube:before {
   content: "\f236";
 }
-.hpe-star-filled:before {
+.hpe-sort:before {
   content: "\f237";
 }
-.hpe-star-half:before {
+.hpe-stakeholder:before {
   content: "\f238";
 }
-.hpe-star:before {
+.hpe-star-filled:before {
   content: "\f239";
 }
-.hpe-status-approved-filled:before {
+.hpe-star-half:before {
   content: "\f23a";
 }
-.hpe-status-error-filled:before {
+.hpe-star:before {
   content: "\f23b";
 }
-.hpe-status-information-filled:before {
+.hpe-status-approved-filled:before {
   content: "\f23c";
 }
-.hpe-status-warning-filled:before {
+.hpe-status-error-filled:before {
   content: "\f23d";
 }
-.hpe-steps-filled:before {
+.hpe-status-information-filled:before {
   content: "\f23e";
 }
-.hpe-steps:before {
+.hpe-status-warning-filled:before {
   content: "\f23f";
 }
-.hpe-storage:before {
+.hpe-steps-filled:before {
   content: "\f240";
 }
-.hpe-street-view-filled:before {
+.hpe-steps:before {
   content: "\f241";
 }
-.hpe-street-view:before {
+.hpe-storage:before {
   content: "\f242";
 }
-.hpe-subtitles:before {
+.hpe-street-view-filled:before {
   content: "\f243";
 }
-.hpe-subtract:before {
+.hpe-street-view:before {
   content: "\f244";
 }
-.hpe-support:before {
+.hpe-subtitles:before {
   content: "\f245";
 }
-.hpe-sync:before {
+.hpe-subtract:before {
   content: "\f246";
 }
-.hpe-system:before {
+.hpe-support:before {
   content: "\f247";
 }
-.hpe-tab-next:before {
+.hpe-sync:before {
   content: "\f248";
 }
-.hpe-tab-previous:before {
+.hpe-system:before {
   content: "\f249";
 }
-.hpe-tab-up:before {
+.hpe-tab-next:before {
   content: "\f24a";
 }
-.hpe-table-add:before {
+.hpe-tab-previous:before {
   content: "\f24b";
 }
-.hpe-table:before {
+.hpe-tab-up:before {
   content: "\f24c";
 }
-.hpe-tag-filled:before {
+.hpe-table-add:before {
   content: "\f24d";
 }
-.hpe-tag:before {
+.hpe-table:before {
   content: "\f24e";
 }
-.hpe-target:before {
+.hpe-tag-filled:before {
   content: "\f24f";
 }
-.hpe-task:before {
+.hpe-tag:before {
   content: "\f250";
 }
-.hpe-template:before {
+.hpe-target:before {
   content: "\f251";
 }
-.hpe-test-desktop:before {
+.hpe-task:before {
   content: "\f252";
 }
-.hpe-test:before {
+.hpe-template:before {
   content: "\f253";
 }
-.hpe-text-wrap:before {
+.hpe-test-desktop:before {
   content: "\f254";
 }
-.hpe-threats:before {
+.hpe-test:before {
   content: "\f255";
 }
-.hpe-ticket:before {
+.hpe-text-wrap:before {
   content: "\f256";
 }
-.hpe-tools:before {
+.hpe-threats:before {
   content: "\f257";
 }
-.hpe-tooltip:before {
+.hpe-ticket:before {
   content: "\f258";
 }
-.hpe-transaction-filled:before {
+.hpe-tools:before {
   content: "\f259";
 }
-.hpe-transaction:before {
+.hpe-tooltip:before {
   content: "\f25a";
 }
-.hpe-trash-filled:before {
+.hpe-transaction-filled:before {
   content: "\f25b";
 }
-.hpe-trash:before {
+.hpe-transaction:before {
   content: "\f25c";
 }
-.hpe-tree:before {
+.hpe-trash-filled:before {
   content: "\f25d";
 }
-.hpe-trigger:before {
+.hpe-trash:before {
   content: "\f25e";
 }
-.hpe-trophy-filled:before {
+.hpe-tree:before {
   content: "\f25f";
 }
-.hpe-trophy:before {
+.hpe-trigger:before {
   content: "\f260";
 }
-.hpe-troubleshooting:before {
+.hpe-trophy-filled:before {
   content: "\f261";
 }
-.hpe-unlock:before {
+.hpe-trophy:before {
   content: "\f262";
 }
-.hpe-up:before {
+.hpe-troubleshooting:before {
   content: "\f263";
 }
-.hpe-update:before {
+.hpe-unlock:before {
   content: "\f264";
 }
-.hpe-upgrade-filled:before {
+.hpe-up:before {
   content: "\f265";
 }
-.hpe-upgrade:before {
+.hpe-update:before {
   content: "\f266";
 }
-.hpe-upload:before {
+.hpe-upgrade-filled:before {
   content: "\f267";
 }
-.hpe-user-add-filled:before {
+.hpe-upgrade:before {
   content: "\f268";
 }
-.hpe-user-add:before {
+.hpe-upload:before {
   content: "\f269";
 }
-.hpe-user-admin:before {
+.hpe-user-add-filled:before {
   content: "\f26a";
 }
-.hpe-user-expert:before {
+.hpe-user-add:before {
   content: "\f26b";
 }
-.hpe-user-female-filled:before {
+.hpe-user-admin:before {
   content: "\f26c";
 }
-.hpe-user-female:before {
+.hpe-user-expert:before {
   content: "\f26d";
 }
-.hpe-user-filled:before {
+.hpe-user-female-filled:before {
   content: "\f26e";
 }
-.hpe-user-manager:before {
+.hpe-user-female:before {
   content: "\f26f";
 }
-.hpe-user-new:before {
+.hpe-user-filled:before {
   content: "\f270";
 }
-.hpe-user-police:before {
+.hpe-user-manager:before {
   content: "\f271";
 }
-.hpe-user-settings:before {
+.hpe-user-new:before {
   content: "\f272";
 }
-.hpe-user-worker:before {
+.hpe-user-police:before {
   content: "\f273";
 }
-.hpe-user:before {
+.hpe-user-settings:before {
   content: "\f274";
 }
-.hpe-validation-filled:before {
+.hpe-user-worker:before {
   content: "\f275";
 }
-.hpe-validation:before {
+.hpe-user:before {
   content: "\f276";
 }
-.hpe-video-filled:before {
+.hpe-validation-filled:before {
   content: "\f277";
 }
-.hpe-video:before {
+.hpe-validation:before {
   content: "\f278";
 }
-.hpe-view-filled:before {
+.hpe-video-filled:before {
   content: "\f279";
 }
-.hpe-view:before {
+.hpe-video:before {
   content: "\f27a";
 }
-.hpe-virtual-machine:before {
+.hpe-view-filled:before {
   content: "\f27b";
 }
-.hpe-vm-maintenance:before {
+.hpe-view:before {
   content: "\f27c";
 }
-.hpe-volume-filled:before {
+.hpe-virtual-machine:before {
   content: "\f27d";
 }
-.hpe-volume-low-filled:before {
+.hpe-vm-maintenance:before {
   content: "\f27e";
 }
-.hpe-volume-low:before {
+.hpe-volume-filled:before {
   content: "\f27f";
 }
-.hpe-volume-mute-filled:before {
+.hpe-volume-low-filled:before {
   content: "\f280";
 }
-.hpe-volume-mute:before {
+.hpe-volume-low:before {
   content: "\f281";
 }
-.hpe-volume:before {
+.hpe-volume-mute-filled:before {
   content: "\f282";
 }
-.hpe-vulnerability:before {
+.hpe-volume-mute:before {
   content: "\f283";
 }
-.hpe-waypoint-filled:before {
+.hpe-volume:before {
   content: "\f284";
 }
-.hpe-waypoint:before {
+.hpe-vulnerability:before {
   content: "\f285";
 }
-.hpe-workshop:before {
+.hpe-waypoint-filled:before {
   content: "\f286";
 }
-.hpe-zoom-in:before {
+.hpe-waypoint:before {
   content: "\f287";
 }
-.hpe-zoom-out:before {
+.hpe-workshop:before {
   content: "\f288";
+}
+.hpe-zoom-in:before {
+  content: "\f289";
+}
+.hpe-zoom-out:before {
+  content: "\f28a";
 }
 .hp-icon,
 .hpe-icon {
@@ -6867,7 +6873,7 @@ th:hover .detail-row-header.sort .sort .number {
   width: 100%;
 }
 .accordion-chevron .panel-heading:before {
-  content: "\f203";
+  content: "\f205";
 }
 .accordion-chevron .panel-heading:before {
   font-family: 'hpe-icons';
@@ -7316,39 +7322,43 @@ a.accordion-toggle:focus {
   border-bottom: 1.1em solid #00a7a2;
   font-size: 0.4em;
 }
-/* ============================ */
-/* Copyright (c) 2016 by Arthur Camara (http://codepen.io/arthurcamara1/pen/LpNwyq) */
-/* Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-/* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-/* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-/* ============================ */
-/* ============================ */
-/* SPINNER BOUNCE MIDDLE        */
-/* ============================ */
-.spinner,
-.spinner:before,
-.spinner:after {
-  width: 2px;
-  height: 10px;
-  background-color: #7b63a3;
-  border-radius: 2px;
-}
-.spinner {
-  display: inline-block;
+.spinner.spinner-bounce-middle,
+.spinner.spinner-bounce-bottom,
+.spinner.spinner-bounce-top,
+.spinner.spinner-blink {
   position: relative;
+  display: inline-flex;
+  margin: 3.5px 6px;
+  width: 3px;
+  height: 3px;
+  animation: bounce-middle 2000ms ease-in 200ms infinite;
 }
-.spinner:before,
-.spinner:after {
-  content: "";
+.spinner.spinner-bounce-middle:before,
+.spinner.spinner-bounce-bottom:before,
+.spinner.spinner-bounce-top:before,
+.spinner.spinner-blink:before,
+.spinner.spinner-bounce-middle:after,
+.spinner.spinner-bounce-bottom:after,
+.spinner.spinner-bounce-top:after,
+.spinner.spinner-blink:after {
+  content: '';
   position: absolute;
-  display: block;
-  top: 0;
+  width: 3px;
+  height: 3px;
 }
-.spinner:before {
-  left: -4px;
+.spinner.spinner-bounce-middle:before,
+.spinner.spinner-bounce-bottom:before,
+.spinner.spinner-bounce-top:before,
+.spinner.spinner-blink:before {
+  left: -6px;
+  animation: bounce-middle 2000ms ease-in 0ms infinite;
 }
-.spinner:after {
-  left: 4px;
+.spinner.spinner-bounce-middle:after,
+.spinner.spinner-bounce-bottom:after,
+.spinner.spinner-bounce-top:after,
+.spinner.spinner-blink:after {
+  right: -6px;
+  animation: bounce-middle 2000ms ease-in 400ms infinite;
 }
 .spinner-hpegreen,
 .spinner-hpegreen:before,
@@ -7364,138 +7374,23 @@ a.accordion-toggle:focus {
   background-color: #7b63a3;
 }
 @keyframes bounce-middle {
-  0% {
-    height: 2px;
-    margin-top: 4px;
-    margin-bottom: 4px;
-  }
-  50% {
-    height: 10px;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
+  0%,
+  70%,
   100% {
-    height: 2px;
-    margin-top: 4px;
-    margin-bottom: 4px;
+    transform: translateY(0);
   }
-}
-.spinner-bounce-middle {
-  animation: bounce-middle 0.6s ease 0.1s infinite;
-}
-.spinner-bounce-middle:before,
-.spinner-bounce-middle:after {
-  top: 50%;
-  transform: translateY(-5px) translateZ(0);
-}
-.spinner-bounce-middle:before {
-  animation: bounce-middle 0.6s ease 0s infinite;
-}
-.spinner-bounce-middle:after {
-  animation: bounce-middle 0.6s ease 0.2s infinite;
-}
-/* ============================ */
-/* SPINNER BOUNCE BOTTOM        */
-/* ============================ */
-@keyframes bounce-bottom {
-  0% {
-    height: 2px;
-    margin-top: 4px;
+  5%,
+  10% {
+    transform: translateY(25%);
   }
-  50% {
-    height: 10px;
-    margin-top: 0;
+  25%,
+  30% {
+    transform: translateY(-75%);
   }
-  100% {
-    height: 2px;
-    margin-top: 4px;
+  50%,
+  55% {
+    transform: translateY(50%);
   }
-}
-.spinner-bounce-bottom {
-  animation: bounce-bottom 0.6s ease 0.1s infinite;
-}
-.spinner-bounce-bottom:before,
-.spinner-bounce-bottom:after {
-  top: auto;
-  bottom: 0;
-}
-.spinner-bounce-bottom:before {
-  animation: bounce-bottom 0.6s ease 0s infinite;
-}
-.spinner-bounce-bottom:after {
-  animation: bounce-bottom 0.6s ease 0.2s infinite;
-}
-/* ============================ */
-/* SPINNER BOUNCE TOP        */
-/* ============================ */
-@keyframes bounce-top {
-  0% {
-    height: 2px;
-    margin-bottom: 4px;
-  }
-  50% {
-    height: 10px;
-    margin-bottom: 0;
-  }
-  100% {
-    height: 2px;
-    margin-bottom: 4px;
-  }
-}
-.spinner-bounce-top {
-  animation: bounce-top 0.6s ease 0.1s infinite;
-}
-.spinner-bounce-top:before {
-  animation: bounce-top 0.6s ease 0s infinite;
-}
-.spinner-bounce-top:after {
-  animation: bounce-top 0.6s ease 0.2s infinite;
-}
-/* ============================ */
-/* SPINNER BLINK                */
-/* ============================ */
-@keyframes glow-hpegreen {
-  0% {
-    background-color: transparent;
-  }
-  50% {
-    background-color: #00a7a2;
-  }
-  100% {
-    background-color: transparent;
-  }
-}
-@keyframes glow-accent {
-  0% {
-    background-color: transparent;
-  }
-  50% {
-    background-color: #7b63a3;
-  }
-  100% {
-    background-color: transparent;
-  }
-}
-.spinner-hpegreen.spinner-blink,
-.spinner-primary.spinner-blink {
-  animation: glow-hpegreen 0.6s 0.1s infinite;
-}
-.spinner-hpegreen.spinner-blink:before,
-.spinner-primary.spinner-blink:before {
-  animation: glow-hpegreen 0.6s 0s infinite;
-}
-.spinner-hpegreen.spinner-blink:after,
-.spinner-primary.spinner-blink:after {
-  animation: glow-hpegreen 0.6s 0.2s infinite;
-}
-.spinner-accent.spinner-blink {
-  animation: glow-accent 0.6s 0.1s infinite;
-}
-.spinner-accent.spinner-blink:before {
-  animation: glow-accent 0.6s 0s infinite;
-}
-.spinner-accent.spinner-blink:after {
-  animation: glow-accent 0.6s 0.2s infinite;
 }
 /*
     Placeholder file for additional fonts provided by theme.
@@ -12963,6 +12858,9 @@ ux-alert.ux-alert-dark {
   margin-right: 3px;
   vertical-align: text-top;
 }
+.hierarchy-bar-popover .popover-content .hierarchy-bar-popover-list .hierarchy-bar-popover-list-item .hierarchy-bar-popover-list-item-image .spinner {
+  margin: 5px auto;
+}
 .loginerrormsg {
   margin-top: 5px;
   color: #fff;
@@ -14126,7 +14024,7 @@ form .button-primary.disabled {
 .el-checkbox-label .el-radiobutton.indeterminate:before,
 .el-radiobutton-label .el-radiobutton.indeterminate:before,
 .el-toggleswitch-label .el-radiobutton.indeterminate:before {
-  content: "\f244";
+  content: "\f246";
 }
 .el-checkbox-label .el-checkbox.checked,
 .el-radiobutton-label .el-checkbox.checked,
@@ -14741,11 +14639,11 @@ tags-input .tags .input:-ms-input-placeholder {
   margin-left: 2px;
   margin-right: 3px;
 }
-.treegrid-expand .treegrid-expand-toggle {
+.treegrid-expand .treegrid-expand-toggle :not(.spinner) {
   cursor: pointer;
   opacity: 0.5;
 }
-.treegrid-expand .treegrid-expand-toggle:hover {
+.treegrid-expand .treegrid-expand-toggle :not(.spinner):hover {
   opacity: 1;
 }
 .treegrid-expander {
