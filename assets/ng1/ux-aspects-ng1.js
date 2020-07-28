@@ -1,5 +1,5 @@
 /* 
-* @ux-aspects/ux-aspects-ng1-docs - v2.0.0 
+* @ux-aspects/ux-aspects-ng1-docs - v2.0.1-112 
 * © Copyright 2020 EntIT Software LLC, a Micro Focus company
 */
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -47345,7 +47345,7 @@ function treegridMultipleSelectItem() {
               event.preventDefault();
               return false;
             });
-            scope.$on('destroy', function () {
+            scope.$on('$destroy', function () {
               element.off('click.multiSelect');
               element.off('keydown.multiSelect');
               element.off('treegrid-navigation-focused');
