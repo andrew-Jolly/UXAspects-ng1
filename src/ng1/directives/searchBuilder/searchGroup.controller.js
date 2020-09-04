@@ -10,7 +10,6 @@ export default function SearchGroupCtrl($scope) {
     vm.readOnly = $scope.readOnly;
 
     vm.addNewField = function(index) {
-
         const targetFunction = vm.getAddFields()[index];
 
         //call the user function specified to add a field
@@ -36,7 +35,7 @@ export default function SearchGroupCtrl($scope) {
                 //create new components
                 for (var i = 0; i < fields.length; i++) {
                     var component = vm.findComponentByName(fields[i].component);
-                    vm.createComponent(fields[i].id, component);
+                    vm.createComponent(fields[i].id, component, fields[i].value);
                 }
 
                 //hide placeholder now that promise has been resolved
@@ -55,7 +54,7 @@ export default function SearchGroupCtrl($scope) {
             //create new components
             for (var i = 0; i < newFields.length; i++) {
                 var component = vm.findComponentByName(newFields[i].component);
-                vm.createComponent(newFields[i].id, component);
+                vm.createComponent(newFields[i].id, component, newFields[i].value);
             }
         }
     };
