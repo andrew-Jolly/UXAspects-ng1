@@ -1,3 +1,6 @@
+> :warning: **This project is archived and no further releases will be made.** Packages will not be removed from Artifactory, so existing builds will not be affected.
+> However, if you need to fix a bug or add a feature, the only option will be to clone the repository and make the change yourself. You will also need to take responsibility for the legal declaration of any future releases involving UX Aspects (AngularJS).
+
 # UX Aspects (AngularJS)
 
 UX Aspects is an open source user interface framework for building modern, responsive, mobile big data applications on the web.

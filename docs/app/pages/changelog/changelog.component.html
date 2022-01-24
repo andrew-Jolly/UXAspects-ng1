@@ -3,9 +3,43 @@
 <div class="container">
     <div class="row">
         <div class="col-md-10 col-md-offset-1 col-sm-12 col-sm-offset-0 m-t-lg">
-            
+
+            <ux-ebox>
+
+                <ux-ebox-header>
+                    <h3 class="changelog-title">UX Aspects (AngularJS) end of life</h3>
+                    <p class="changelog-date">December 31st 2021</p>
+                </ux-ebox-header>
+
+                <ux-ebox-content>
+                    <p>
+                        Because <a href="https://blog.angular.io/discontinued-long-term-support-for-angularjs-cc066b82e65a">
+                        AngularJS 1.x has reached the end of its support window</a>, we have now retired the AngularJS
+                        version of UX Aspects. The UX Aspects team will make no further releases of the AngularJS component library.
+                    </p>
+
+                    <h4>What should I do if I need an AngularJS bug fix or feature?</h4>
+
+                    <p>
+                        The recommended approach is to use the <a href="https://uxaspects.github.io/UXAspects">UX Aspects Angular components</a> instead.
+                        If you are unable to migrate, the only option will be to clone the repository and make the
+                        change yourself. You will also need to take responsibility for the legal declaration of any
+                        future releases involving UX Aspects (AngularJS).
+                    </p>
+
+                    <h4>How can I tell if a project is using the affected library?</h4>
+
+                    <p>Run the following command in the root of your project:</p>
+                    <pre>npm ls @ux-aspects/ux-aspects-ng1</pre>
+                    <p>If it shows <code>(empty)</code> then this product retirement does not affect your application.</p>
+
+                </ux-ebox-content>
+
+            </ux-ebox>
+
+
             <ux-ebox *ngFor="let log of logs">
-                
+
                 <ux-ebox-header>
                     <h3 class="changelog-title">UX Aspects - {{ log.version }}</h3>
                     <p class="changelog-date">{{ log.date }}</p>
