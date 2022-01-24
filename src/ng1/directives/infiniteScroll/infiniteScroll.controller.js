@@ -50,6 +50,7 @@ export class InfiniteScrollController {
         this.pagePosition = this.pagePosition || 85;
         this.windowScroll = this.windowScroll || false;
         this.showLoading = this.showLoading !== false;
+        this.loadingString = this.loadingString || 'Loading';
         this.buttonOptions = angular.extend({ show: false, text: 'Load More' }, this.loadMoreButton);
 
         // determine the type of scrolling to use
