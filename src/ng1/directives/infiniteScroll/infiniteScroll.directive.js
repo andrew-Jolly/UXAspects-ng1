@@ -20,6 +20,7 @@ export default function infiniteScroll($compile, $templateRequest) {
             scrollConfig: '=',
             windowScroll: '=?',
             loadMoreButton: '=?',
+            loadingString: '=?',
             loadingChange: '&'
         },
         link: function (scope, element, attrs, controller) {
@@ -56,7 +57,7 @@ export default function infiniteScroll($compile, $templateRequest) {
                 const indicator = angular.element(`
                     <div class="infinite-scroll-loading" ng-show="$ctrl.loading">
                         <div class="spinner spinner-accent spinner-bounce-middle"></div>
-                        <span class="spinner-text">Loading...</span>
+                        <span class="spinner-text">${controller.loadingString}</span>
                     </div>
                 `);
 
